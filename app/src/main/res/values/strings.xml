@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">GSoc-2019-Python-library-for-real-time-data-visualization</string>
+
+    <!-- Prompt & actions -->
+
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_forgot_password">Forgot password?</string>
+    <string name="prompt_create_account">No account yet? Create one!</string>
+
+
+
+    <!-- Action -->
+
+    <string name="action_sign_in">Sign in</string>
+
+
+    <!-- Buttons -->
+
+    <string name="google_sign_in">GOOGLE SIGN IN</string>
+
 </resources>
