@@ -7,6 +7,7 @@
     <string name="prompt_password">Password</string>
     <string name="prompt_forgot_password">Forgot password?</string>
     <string name="prompt_create_account">No account yet? Create one!</string>
+    <string name="prompt_email">Email</string>
 
 
     <!-- Action -->
@@ -24,12 +25,17 @@
     <string name="register_as_donor_button">REGISTER AS DONOR</string>
     <string name="register_as_volunteer_button">REGISTER AS VOLUNTEER</string>
     <string name="btn_reset_password">RESET PASSWORD</string>
+    <string name="register_button">REGISTER</string>
+    <string name="cancel_button">CANCEL</string>
+    <string name="google_sign_up">GOOGLE SIGN UP</string>
+
 
     <!-- Text and titles -->
 
     <string name="title_create_account">What kind of help do you want to offer?</string>
     <string name="conditions_register_as_donor">If you register as Donor you will have the possibility to donate things like food, clothes, a work place, lodging, or higine products.You can do it personally or request the help of a volunteer person who will deliver the products for you.You also can contact us if you know some person who needs our help.</string>
     <string name="conditions_register_as_volunteer">If you register as Volunteer you commit to complete and manage the profiles of one or several people in need, talking with them and in case that someone wants to donate them something you should facilitate the delivery of the products.</string>
-
+    <string name="register_donor">Register using email</string>
+    <string name="register_donor_title">REGISTER AS DONOR</string>
 
 </resources>
