@@ -8,6 +8,10 @@
     <string name="prompt_forgot_password">Forgot password?</string>
     <string name="prompt_create_account">No account yet? Create one!</string>
     <string name="prompt_email">Email</string>
+    <string name="prompt_first_name">First name</string>
+    <string name="prompt_last_name">Last name</string>
+    <string name="prompt_phone_number">Phone number</string>
+    <string name="prompt_age">Age</string>
 
 
     <!-- Action -->
@@ -37,5 +41,8 @@
     <string name="conditions_register_as_volunteer">If you register as Volunteer you commit to complete and manage the profiles of one or several people in need, talking with them and in case that someone wants to donate them something you should facilitate the delivery of the products.</string>
     <string name="register_donor">Register using email</string>
     <string name="register_donor_title">REGISTER AS DONOR</string>
+    <string name="register_volunteer_title">REGISTER AS VOLUNTEER</string>
+    <string name="account_info">Account Info</string>
+    <string name="personal_info">Personal Info</string>
 
 </resources>
