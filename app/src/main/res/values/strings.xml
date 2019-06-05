@@ -32,6 +32,8 @@
     <string name="register_button">REGISTER</string>
     <string name="cancel_button">CANCEL</string>
     <string name="google_sign_up">GOOGLE SIGN UP</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_about_us">About us</string>
 
 
     <!-- Text and titles -->
