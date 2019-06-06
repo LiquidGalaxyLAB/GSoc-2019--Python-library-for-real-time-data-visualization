@@ -46,5 +46,8 @@
     <string name="register_volunteer_title">REGISTER AS VOLUNTEER</string>
     <string name="account_info">Account Info</string>
     <string name="personal_info">Personal Info</string>
+    <string name="about_text">This is an application designed to help people who do not have basic resources, such as food, clothing, a place of work or accommodation. The application has two profiles: The Donor, through which the user has the possibility to donate resources to a person you choose. You can deliver the resources personally or through a volunteer. The second profile is Volunteer, where the user has the possibility to manage several profiles of people in need and help them receive the help offered. The application looks at all times to comply with the current Data Protection Laws. </string>
+    <string name="about_title">ABOUT US</string>
+
 
 </resources>
