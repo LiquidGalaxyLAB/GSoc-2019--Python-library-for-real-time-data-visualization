@@ -4,11 +4,11 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/background"
+    tools:context=".RegisterActivity"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="RegisterAsVolunteerActivity"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <LinearLayout
@@ -19,12 +19,21 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/register_volunteer_title"
+            android:text="@string/register_title"
             android:layout_gravity="center"
             android:textSize="30sp"
             android:textStyle="bold"
             android:layout_marginBottom="20dp"
             android:textColor="@color/black"/>
+
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,8 +45,10 @@
             android:layout_marginBottom="20dp"
             android:textColor="@color/darkblue"/>
 
+
+
         <EditText
-            android:id="@+id/username_volunteer"
+            android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorAccent"
@@ -48,7 +59,7 @@
             android:singleLine="true" />
 
         <EditText
-            android:id="@+id/email_volunteer"
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorAccent"
@@ -59,7 +70,7 @@
             android:singleLine="true" />
 
         <EditText
-            android:id="@+id/password_volunteer"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorAccent"
@@ -69,63 +80,21 @@
             android:inputType="textPassword"
             android:singleLine="true" />
 
-        <TextView
+        <CheckedTextView
+            android:id="@+id/is_volunteer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/personal_info"
-            android:layout_gravity="start"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="20dp"
-            android:textColor="@color/darkblue"/>
+            android:layout_marginTop="10dp"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:gravity="center_vertical"
+            android:text="@string/check_volunteer"
 
-        <EditText
-            android:id="@+id/first_name_volunteer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorAccent"
-            android:hint="@string/prompt_first_name"
-            android:maxLines="1"
-            android:drawableStart="@drawable/add_person"
-            android:inputType="textPersonName"
-            android:singleLine="true" />
+            />
 
-        <EditText
-            android:id="@+id/last_name_volunteer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorAccent"
-            android:hint="@string/prompt_last_name"
-            android:maxLines="1"
-            android:drawableStart="@drawable/add_person"
-            android:inputType="textPersonName"
-            android:singleLine="true" />
-
-        <EditText
-            android:id="@+id/phone_number_volunteer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorAccent"
-            android:hint="@string/prompt_phone_number"
-            android:maxLines="1"
-            android:drawableStart="@drawable/phone"
-            android:inputType="phone"
-            android:singleLine="true" />
-
-        <EditText
-            android:id="@+id/age_volunteer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorAccent"
-            android:hint="@string/prompt_age"
-            android:maxLines="1"
-            android:drawableStart="@drawable/age"
-            android:inputType="numberDecimal"
-            android:singleLine="true" />
+        <include layout="@layout/register_volunteer"/>
 
         <Button
-            android:id="@+id/register_as_volunteer_button"
+            android:id="@+id/create_account_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorAccent"
@@ -135,6 +104,7 @@
             android:textStyle="bold"
             android:layout_marginTop="30dp"
             android:textSize="15sp"/>
+
 
         <Button
             android:id="@+id/cancel_button"

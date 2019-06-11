@@ -3,11 +3,11 @@ package gsoc.mihaela.claudia.diosan.gsoc_2019_python_library_for_real_time_data_
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class RegisterAsVolunteerActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register_as_volunteer);
+        setContentView(R.layout.activity_register);
     }
 }
