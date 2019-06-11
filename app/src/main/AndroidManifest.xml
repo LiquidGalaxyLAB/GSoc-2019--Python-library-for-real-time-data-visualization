@@ -4,13 +4,10 @@
 
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
-
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
@@ -21,11 +18,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StatisticsActivity"></activity>
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".StatisticsActivity" />
         <activity android:name=".AboutUsActivity" />
-        <activity android:name=".RegisterAsVolunteerActivity" />
-        <activity android:name=".RegisterAsDonorActivity" />
-        <activity android:name=".CreateAccountActivity" />
         <activity android:name=".ForgotPasswordActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SplashActivity">

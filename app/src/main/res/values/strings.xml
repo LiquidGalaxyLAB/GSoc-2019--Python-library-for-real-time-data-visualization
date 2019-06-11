@@ -53,10 +53,12 @@
     <string name="statistics_volunteers">VOLUNTEERS REGISTERED:</string>
     <string name="statistics_need_help">PERSONS WHO NEED HELP:</string>
     <string name="statistics_donors">DONORS REGISTERED:</string>
+    <string name="register_title">REGISTER</string>
+    <string name="check_volunteer">You want to register as a volunteer?</string>
 
     <!-- KEYS -->
-    <string name="wifi_connected" >Wifi Connected</string>
-    <string name="mobile_internet" >Mobile Internet Connected</string>
+    <string name="wifi_connected">Wifi Connected</string>
+    <string name="mobile_internet">Mobile Internet Connected</string>
     <string name="internet_not_available">Internet not Connected</string>
 
 
