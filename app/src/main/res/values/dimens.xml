@@ -7,10 +7,13 @@
 
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="nav_header_vertical_spacing">15dp</dimen>
+    <dimen name="nav_header_height">200dp</dimen>
 
     <dimen name="nav_header_icon">150dp</dimen>
 
     <dimen name="landscape_elements_space">100dp</dimen>
+
+
 
 
 </resources>
