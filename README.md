@@ -23,6 +23,28 @@ This project is developed in a context of a scolarship in the program Google Sum
 
  ## __Wiki__
  
- You can find all the development process and more information about this project on the [Wiki](https://github.com/LiquidGalaxyLAB/PythonLibraryForRealTimeDataVisualizationGSoC2019--API-nodeJs/wiki) 
+ You can find all the development process and more information about this project on the [Wiki](https://github.com/LiquidGalaxyLAB/Python-library-for-real-time-data-visualization--SocialCare-Android-App/wiki) 
+ 
+  ## __Prerequisites__
+ 
+ * [Node.js](https://nodejs.org/en/)
+ * [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
+ * A device with Android Operation System, with a version greater than Lollipop, API Level 22
+ 
+  ## __Getting Started__
+  
+  Download the .apk file and install it into your device
+  
+   ## __License__
+  
+ This Node.js API is used to make CRUD operations with three specific models, in order to use this data into a Web Interface and an Android Application to display the data into the Liquid Galaxy.
+
+Copyright (C) 2019 Mihaela Claudia Diosan
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
 
 
